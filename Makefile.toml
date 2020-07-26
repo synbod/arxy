@@ -1,0 +1,3 @@
+[tasks.dev]
+description = "listen to port 8080 and auto reload if changes"
+script = ["systemfd --no-pid -s http::8080 -- cargo watch -x 'run'"]

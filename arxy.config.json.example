@@ -1,0 +1,11 @@
+{
+  "/route1": {
+    "to": "https://example.com/",
+    "headers": {
+      "Authorization": "<your token here>"
+    }
+  },
+  "/route2": {
+    "to": "https://example.com/<forward route>",
+  },
+}
