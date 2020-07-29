@@ -3,13 +3,14 @@ name = "arxy"
 version = "0.0.1"
 authors = ["Chris Chou <chhschou@gmail.com>"]
 edition = "2018"
-license = "MIT"
+license-file = "LICENSE"
 description = "Arbitrary forward proxy"
 homepage = "https://github.com/synbod/arxy"
 repository = "https://github.com/synbod/arxy"
 readme = "README.md"
 keywords = ["proxy", "graphics"]
 categories = ["command-line-utilities", "web-programming", "web-programming::http-server"]
+include = ["src/main.rs", "LICENSE", "README.md"]
 
 
 [dependencies]
